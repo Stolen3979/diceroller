@@ -1,0 +1,21 @@
+h1{
+font-size: 4rem;
+text-align: center;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items:center;
+height: 100vh;
+}
+.sub-container{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 100px 500px;
+gap: 30px;
+}
+.player{
+font-size: 3rem;
+text-align: center;
+font-weight: 60px;
+}
